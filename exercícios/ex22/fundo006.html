@@ -6,17 +6,27 @@
     <title>Document</title>
     <style>
         body {
-            height: 100%;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+                color -> image -> position -> repeat -> [size] -> attachment
+
+                as especificações aceita size mas os navegadores não aceitam :|
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -27,7 +37,9 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam. Dolorum ex exercitationem ea quia! Ipsa blanditiis recusandae est. Quaerat, earum. Iste mollitia, impedit reiciendis libero aliquam quae eaque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a deleniti nostrum tempora assumenda veniam quo delectus, quam in laudantium animi repellat at minima itaque dolores soluta nulla, consectetur numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad similique adipisci ipsum eos enim fuga soluta nulla assumenda porro accusamus quisquam repellendus qui necessitatibus repudiandae earum obcaecati, suscipit eligendi odio!</p>
     </main>
 </body>
 </html>
